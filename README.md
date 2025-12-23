@@ -74,8 +74,6 @@ src/
 ```bash
 npm start          # Runs the app in development mode
 npm test           # Launches the test runner
-npm run build      # Builds the app for production
-npm run eject      # Ejects from Create React App (one-way operation)
 ```
 
 ## 💡 Key Features Breakdown
@@ -146,3 +144,4 @@ Projet réalisé pour approfondir mes compétences en développement front-end a
 
 **Live Demo**: [View Live Application](https://your-demo-link.com)
 **Repository**: [GitHub Repository](https://github.com/yourusername/react-ecommerce-store)
+
