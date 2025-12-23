@@ -1,0 +1,108 @@
+section.cart {
+  height: calc(100% - 50px);
+  background:linear-gradient(-120deg, rgb(62, 75, 87), #29323c) ;
+  border-radius: 4px 0px;
+  transform-origin: right;
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  overflow: hidden;
+}
+section.cart .container-to-center {
+  width: 90%;
+  padding-top: 5px;
+  height: calc(100% - 55px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+section.cart .container-to-center > * {
+  width: 100%;
+  height: 50px;
+  background-color: #29323c;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
+}
+section {
+}
+section.cart img {
+  height: 30px;
+  width: auto;
+}
+.content-card {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.content-card h6{
+  font-family: 3px !important;
+}
+.btns-inc-dec{
+  gap:5px;
+  width: 40%;
+}
+.btns-inc-dec .new-btn{
+  font-size: 12px;
+  width: 24px;
+  cursor: pointer;
+  height: 24px;
+  border-radius: 5px;
+  background-color: #373e45;
+}
+.btns-inc-dec h6{
+  font-size: 17px;
+}
+section.cart .content {
+  height: 40px;
+  width: 90%;
+  background-color: #29323c;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 1fr;
+  gap: 10px;
+  bottom: 0;
+  border-radius: inherit;
+  padding: 5px;
+}
+.content > * {
+  background-color: #1b67bf;
+  border-radius: 5px;
+}
+.btn-trash{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: tomato;
+  align-self: end;
+  margin: 10px;
+  cursor: pointer;
+}
+.content .close{
+  cursor: pointer;
+}
+.anton {
+  font-family: "Anton SC", serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+.saira {
+  font-family: "Saira", serif !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.russo {
+  font-family: "Russo One", serif !important;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,40 @@
+header {
+  height: 35px;
+  width: 100%;
+  background:linear-gradient(-120deg, rgb(62, 75, 87), #29323c) ;
+  gap: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 50%;
+}
+header ul > :last-child {
+  height: 120%;
+  aspect-ratio: 1;
+  position: relative;
+}
+header ul > *{
+  cursor: pointer;
+}
+header ul span {
+  --size: 11px;
+  font-family: monospace;
+  display: block;
+  height: var(--size);
+  font-size: 10px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  background-color: rgb(240, 32, 32);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(-1 * var(--size) / 2);
+}
